@@ -1,0 +1,6 @@
+SELECT COUNT(*) AS QueensCount FROM keti-qx5t WHERE COUNTY = 'QUEENS'
+
+https://health.data.ny.gov/resource/keti-qx5t.json?$query=SELECT COUNT(*) FROM keti-qx5t
+https://health.data.ny.gov/resource/keti-qx5t.json?$select=COUNT(*) AS QueensCount, WHERE COUNTY = 'QUEENS'
+
+https://health.data.ny.gov/resource/keti-qx5t.json?$select=COUNTY, COUNT(*) AS CountyCount&$group=COUNTY

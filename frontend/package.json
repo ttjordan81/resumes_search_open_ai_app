@@ -1,0 +1,38 @@
+{
+  "name": "cd-data-dashboard",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --port 8050 ",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.6.4",
+    "@heroicons/vue": "^1.0.6",
+    "@hyjiacan/vue-slideout": "^3.0.1",
+    "autoprefixer": "^10",
+    "axios": "^1.6.2",
+    "chart.js": "^4.4.1",
+    "dotenv": "^16.3.1",
+    "flowbite": "^2.2.0",
+    "fuse.js": "^7.0.0",
+    "mongodb": "^6.3.0",
+    "mysql2": "^3.9.1",
+    "openai": "^4.28.0",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.13",
+    "vue-sidebar-menu": "^5.2.3",
+    "vue3-markdown-it": "^1.0.10",
+    "vuejs-smart-table": "^0.0.8",
+    "vuetable-2": "^2.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.5",
+    "vue-cli-plugin-tailwind": "~3.0.0"
+  }
+}
